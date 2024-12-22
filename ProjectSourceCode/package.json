@@ -1,0 +1,32 @@
+{
+  "name": "invest-app",
+  "version": "1.0.0",
+  "description": "Investing tools web app.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm test",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gebert98/symmetrical-spork.git"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1",
+    "express-session": "^1.18.1",
+    "pg-promise": "^11.10.2"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Gaeryth Ebert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gebert98/symmetrical-spork/issues"
+  },
+  "homepage": "https://github.com/gebert98/symmetrical-spork#readme"
+}
